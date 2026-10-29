@@ -32,6 +32,10 @@ writes a `/workspace/verdict.json` file as its structured output.
 - Context is passed via JSON files, not template variable substitution
 - False-alarm patterns are part of the skill definition, not context
 - Skills are model-agnostic: the orchestrator selects the model
+- `AGENTS.md` is the canonical guidance file; `CLAUDE.md` is retained as a
+  compatibility symlink
+- Use runtime-neutral language in documentation and skill files (e.g.,
+  "coding-agent runtime" rather than a vendor-specific name)
 
 ## Linting
 
